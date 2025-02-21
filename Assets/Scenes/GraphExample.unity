@@ -324,6 +324,7 @@ MonoBehaviour:
   - {fileID: 1739021227}
   - {fileID: 520485085}
   - {fileID: 115567824}
+  StartVertice: {fileID: 0}
 --- !u!4 &272169073
 Transform:
   m_ObjectHideFlags: 0
