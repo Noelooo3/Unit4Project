@@ -26,5 +26,23 @@ public class StringExample : MonoBehaviour
             reverseStrBuilder.Append(str[i]);
         }
         Debug.Log(reverseStrBuilder.ToString());
+
+        int a = 10;
+        int b = 20;
+        // this is 10 (a), and this is 20 (b)
+        Debug.Log("this is " + a + " (a), and this is " + b + " (b)");
+        Debug.Log($"this is {a} (a), and this is {b} (b)");
+
+        float pi = 3.141592f;
+        Debug.Log(pi.ToString("F2"));
+
+        DateTime now = DateTime.Now;
+        Debug.Log(now);
+        int year = now.Year;
+        int month = now.Month;
+        int day = now.Day;
+        Debug.Log($"{year}-{month}-{day}");
+        Debug.Log(now.ToString("yyyy-M-d"));
+        Debug.Log(now.ToString("yyyy-MMM-d"));
     }
 }
